@@ -1,0 +1,10 @@
+﻿create table Postagem (
+ID integer,
+corpo text,
+dataPost date,
+horaPOst time,
+IdUser integer,
+
+Constraint PK primary key (ID)
+
+)
